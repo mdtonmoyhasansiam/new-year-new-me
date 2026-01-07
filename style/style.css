@@ -112,3 +112,44 @@ header .banner-container{
     color: #444343;
     margin-bottom: 8px;
 }
+
+#skill{
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+#skill .skill-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 130px;
+}
+
+#skill .skill-cart{
+    max-width: 1141px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 86px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#skill .skill-cart .skill-name img{
+    width: 92.96px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+#skill .skill-cart .skill-name h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    padding-bottom: 16px;
+}
+
+#skill .skill-cart .skill-name p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
