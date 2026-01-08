@@ -14,10 +14,14 @@
 header .banner-container{
     position: relative;
     width: 1600px;
+    height: auto;
 }
 
 .banner-container img{
     width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .banner-container .heading-text{
@@ -70,6 +74,7 @@ header .banner-container{
 
 #background{
     max-width: 1072px;
+    height: auto;
     /* border: 1px solid red; */
     margin: 0 auto;
     padding-top: 131px;
@@ -81,6 +86,9 @@ header .banner-container{
 #background .background-img img{
     max-width: 569px;
     vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #background .background-text{
@@ -118,6 +126,7 @@ header .banner-container{
 #skill{
     max-width: 1141px;
     margin: 0 auto;
+    height: auto;
 }
 
 #skill .skill-heading{
@@ -163,6 +172,8 @@ header .banner-container{
     background-repeat: no-repeat;
     margin: 0 auto;
     margin-top: 130px;
+    background-size: contain;
+    background-position: center;
 }
 
 #down-banner .banner-text{
