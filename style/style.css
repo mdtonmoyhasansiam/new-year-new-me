@@ -13,7 +13,7 @@
 
 header .banner-container{
     position: relative;
-    width: 1600px;
+    width: 100%;
     height: auto;
 }
 
@@ -73,7 +73,7 @@ header .banner-container{
 }
 
 #background{
-    max-width: 1072px;
+    width: 100%;
     height: auto;
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -124,7 +124,7 @@ header .banner-container{
 }
 
 #skill{
-    max-width: 1141px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
 }
